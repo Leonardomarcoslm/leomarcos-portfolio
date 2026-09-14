@@ -1,0 +1,5 @@
+.case-story{grid-column:1/-1;max-width:850px;margin:0 auto;padding:70px 24px 90px}
+.gallery-section-title{grid-column:1/-1;font:500 clamp(26px,4vw,48px)/1.2 var(--display);padding:40px 18px 12px;margin:0;color:var(--cyan)}
+.case-story h2{font:500 clamp(32px,5vw,60px)/1.1 var(--display);letter-spacing:-.03em;color:var(--cyan);margin:0 0 32px}
+.case-story p{font-size:clamp(17px,1.5vw,21px);line-height:1.8;color:#c0c0c0;white-space:pre-line;margin:0 0 24px}
+@media(max-width:600px){.case-story{padding:45px 18px}}
