@@ -643,7 +643,578 @@ window.PORTFOLIO = [
     "description": "Seleção de peças digitais com diferentes linguagens, formatos e objetivos de comunicação para redes sociais.",
     "cover": "assets/images/portfolio/social-media-v2.webp",
     "behance": "https://www.behance.net/gallery/155758245/Social-Media-V2",
-    "gallery": []
+    "gallery": [
+  {
+    "src": "assets/images/cases/social-media-v2/001.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/002.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/003.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/004.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/005.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/006.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/007.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/008.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/009.webp",
+    "width": 1078,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/010.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/011.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/012.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/013.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/014.webp",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/015.webp",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/016.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/017.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/018.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/019.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/020.webp",
+    "width": 1078,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/021.webp",
+    "width": 1078,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/022.webp",
+    "width": 1078,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/023.webp",
+    "width": 1078,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/024.webp",
+    "width": 1078,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/025.webp",
+    "width": 1078,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/026.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/027.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/028.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/029.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/030.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/031.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/032.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/033.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/034.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/035.webp",
+    "width": 1079,
+    "height": 1349
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/036.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/037.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/038.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/039.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/040.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/041.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/042.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/043.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/044.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/045.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/046.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/047.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/048.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/049.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/050.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/051.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/052.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/053.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/054.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/055.webp",
+    "width": 1080,
+    "height": 1352
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/056.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/057.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/058.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/059.webp",
+    "width": 1083,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/060.webp",
+    "width": 1083,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/061.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/062.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/063.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/064.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/065.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/066.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/067.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/068.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/069.webp",
+    "width": 1082,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/070.webp",
+    "width": 1082,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/071.webp",
+    "width": 1082,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/072.webp",
+    "width": 1082,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/073.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/074.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/075.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/076.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/077.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/078.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/079.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/080.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/081.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/082.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/083.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/084.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/085.webp",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/086.webp",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/087.webp",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/088.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/089.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/090.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/091.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/092.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/093.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/094.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/095.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/096.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/097.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/098.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/099.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/100.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/101.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/102.webp",
+    "width": 1080,
+    "height": 1354
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/103.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/104.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/105.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/106.webp",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/107.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/108.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/109.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/110.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/111.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/112.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/113.webp",
+    "width": 1080,
+    "height": 1350
+  },
+  {
+    "src": "assets/images/cases/social-media-v2/114.webp",
+    "width": 1080,
+    "height": 1350
+  }
+]
   },
   {
     "id": 10,
@@ -655,44 +1226,574 @@ window.PORTFOLIO = [
     "behance": "https://www.behance.net/gallery/216174941/Fisiculturista-Bodybuilder",
     "gallery": [
       {
-        "src": "assets/images/cases/bodybuilder/00.webp",
+        "src": "assets/images/cases/bodybuilder/behance-001.webp",
         "width": 1400,
         "height": 438
       },
       {
-        "src": "assets/images/cases/bodybuilder/01.webp",
+        "src": "assets/images/cases/bodybuilder/behance-002.webp",
         "width": 1400,
         "height": 438
       },
       {
-        "src": "assets/images/cases/bodybuilder/02.webp",
+        "src": "assets/images/cases/bodybuilder/behance-003.webp",
         "width": 1400,
         "height": 438
       },
       {
-        "src": "assets/images/cases/bodybuilder/03.webp",
+        "src": "assets/images/cases/bodybuilder/behance-004.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-005.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-006.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-007.webp",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-008.webp",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-009.webp",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-010.webp",
         "width": 1400,
         "height": 438
       },
       {
-        "src": "assets/images/cases/bodybuilder/04.webp",
+        "src": "assets/images/cases/bodybuilder/behance-011.webp",
         "width": 1400,
         "height": 671
       },
       {
-        "src": "assets/images/cases/bodybuilder/05.webp",
+        "src": "assets/images/cases/bodybuilder/behance-012.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-013.webp",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-014.webp",
         "width": 1400,
         "height": 453
       },
       {
-        "src": "assets/images/cases/bodybuilder/06.webp",
+        "src": "assets/images/cases/bodybuilder/behance-015.webp",
         "width": 1400,
         "height": 1930
       },
       {
-        "src": "assets/images/cases/bodybuilder/07.webp",
+        "src": "assets/images/cases/bodybuilder/behance-016.webp",
+        "width": 1031,
+        "height": 159
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-017.webp",
         "width": 1400,
         "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-018.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-019.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-020.webp",
+        "width": 1400,
+        "height": 990
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-021.webp",
+        "width": 1400,
+        "height": 990
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-022.webp",
+        "width": 1400,
+        "height": 990
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-023.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-024.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-025.webp",
+        "width": 1400,
+        "height": 629
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-026.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-027.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-028.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-029.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-030.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-031.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-032.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-033.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-034.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-035.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-036.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-037.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-038.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-039.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-040.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-041.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-042.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-043.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-044.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-045.webp",
+        "width": 1400,
+        "height": 1930
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-046.webp",
+        "width": 916,
+        "height": 159
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-047.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-048.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-049.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-050.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-051.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-052.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-053.webp",
+        "width": 1400,
+        "height": 1930
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-054.webp",
+        "width": 1400,
+        "height": 788
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-055.webp",
+        "width": 1031,
+        "height": 159
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-056.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-057.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-058.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-059.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-060.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-061.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-062.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-063.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-064.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-065.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-066.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-067.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-068.webp",
+        "width": 1400,
+        "height": 933
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-069.webp",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-070.webp",
+        "width": 1080,
+        "height": 1350
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-071.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-072.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-073.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-074.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-075.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-076.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-077.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-078.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-079.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-080.webp",
+        "width": 1400,
+        "height": 788
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-081.webp",
+        "width": 1400,
+        "height": 788
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-082.webp",
+        "width": 1400,
+        "height": 788
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-083.webp",
+        "width": 1400,
+        "height": 788
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-084.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-085.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-086.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-087.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-088.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-089.webp",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-090.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-091.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-092.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-093.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-094.webp",
+        "width": 1400,
+        "height": 438
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-095.webp",
+        "width": 1400,
+        "height": 1930
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-096.webp",
+        "width": 1400,
+        "height": 788
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-097.webp",
+        "width": 1359,
+        "height": 159
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-098.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-099.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-100.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-101.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-102.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-103.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-104.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-105.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-106.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-107.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-108.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-109.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-110.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-111.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-112.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-113.webp",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "src": "assets/images/cases/bodybuilder/behance-114.webp",
+        "width": 1080,
+        "height": 1080
       }
     ]
   },
@@ -705,6 +1806,21 @@ window.PORTFOLIO = [
     "cover": "assets/images/portfolio/carlos-viana.webp",
     "behance": "https://www.behance.net/gallery/216165419/CAMPANHA-POLITICA-CARLOS-VIANA",
     "gallery": [
+{"src":"assets/images/cases/carlos-viana/criativo-01.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-02.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-03.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-04.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-05.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-06.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-07.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-08.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-09.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-10.webp","width":1080,"height":1080},
+{"src":"assets/images/cases/carlos-viana/criativo-11.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-12.webp","width":1080,"height":1350},
+{"src":"assets/images/cases/carlos-viana/criativo-13.webp","width":1080,"height":1080},
+{"src":"assets/images/cases/carlos-viana/criativo-14.webp","width":1080,"height":1080},
+{"src":"assets/images/cases/carlos-viana/criativo-15.webp","width":1080,"height":1080},
       {
         "src": "assets/images/cases/carlos-viana/00.webp",
         "width": 1400,

@@ -33,6 +33,16 @@
     window.renderPhilipsCase(project);
   }
   const gallery = document.querySelector('[data-gallery]');
+  gallery.id = 'galeria';
+  const jump = document.createElement('a'); jump.href = '#galeria';
+  jump.className = 'gallery-jump'; jump.textContent = 'Ver imagens do projeto ↓';
+  document.querySelector('.case-overview').after(jump);
+  try {
+    const back = sessionStorage.getItem('portfolio-return');
+    if (back && new URL(back, location.href).origin === location.origin && new URL(back, location.href).pathname.endsWith('/projetos.html')) {
+      document.querySelectorAll('.back-link').forEach(link => { link.href = back; });
+    }
+  } catch {}
   if (project.slug === 'clinica-abbas') {
     const video = document.createElement('figure');
     video.className = 'case-video';
@@ -60,7 +70,7 @@
     const player = document.createElement('video');
     player.controls = true;
     player.playsInline = true;
-    player.preload = item.poster ? 'none' : 'metadata';
+    player.preload = 'none';
     if (item.poster) player.poster = item.poster;
     player.setAttribute('aria-label', item.title);
     const source = document.createElement('source');
@@ -92,6 +102,7 @@
     const image = document.createElement('img');
     image.src = item.src; image.alt = project.title + ' — apresentação ' + (index + 1);
     image.width = item.width; image.height = item.height; image.loading = index === 0 ? 'eager' : 'lazy';
+    image.decoding = 'async';
     figure.append(image);
     if (item.title) {
       image.alt = item.title;

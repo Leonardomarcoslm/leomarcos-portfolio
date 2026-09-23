@@ -9,11 +9,25 @@
     body.classList.toggle('menu-open', open);
     menu.classList.toggle('is-open', open);
     menu.setAttribute('aria-hidden', String(!open));
+    menu.inert = !open;
+    document.querySelector('main').inert = open;
+    document.querySelector('footer').inert = open;
     toggle.setAttribute('aria-expanded', String(open));
     toggle.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
   };
   toggle.addEventListener('click', () => setMenu(!menu.classList.contains('is-open')));
   menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setMenu(false)));
+  setMenu(false);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menu.classList.contains('is-open')) { setMenu(false); toggle.focus(); }
+    if (event.key === 'Tab' && menu.classList.contains('is-open')) {
+      const links = [...menu.querySelectorAll('a')];
+      const first = links[0], last = links[links.length - 1];
+      if (document.activeElement === toggle) { event.preventDefault(); (event.shiftKey ? last : first).focus(); }
+      else if ((!event.shiftKey && document.activeElement === last) || (event.shiftKey && document.activeElement === first)) { event.preventDefault(); toggle.focus(); }
+    }
+  });
+  window.matchMedia('(min-width: 901px)').addEventListener('change', event => { if (event.matches) setMenu(false); });
 
   let lastScroll = 0;
   window.addEventListener('scroll', () => {
@@ -38,10 +52,23 @@
   if (heroSlides.length) {
     heroSlides.forEach((slide, index) => slide.classList.toggle('is-active', index === 0));
     if (!reduceMotion && heroSlides.length > 1) window.setInterval(() => {
+      if (document.hidden || window.scrollY > window.innerHeight || heroPaused) return;
       heroActive = (heroActive + 1) % heroSlides.length;
       heroSlides.forEach((slide, index) => slide.classList.toggle('is-active', index === heroActive));
       if (heroCurrent) heroCurrent.textContent = String(heroActive + 1).padStart(2, '0');
     }, 5200);
+  }
+  let heroPaused = false;
+  if (heroSlides.length > 1 && !reduceMotion) {
+    const pause = document.createElement('button');
+    pause.className = 'hero-pause'; pause.textContent = 'Pausar apresentação';
+    pause.setAttribute('aria-pressed', 'false');
+    document.querySelector('[data-hero-slider]').after(pause);
+    pause.addEventListener('click', () => {
+      heroPaused = !heroPaused;
+      pause.textContent = heroPaused ? 'Retomar apresentação' : 'Pausar apresentação';
+      pause.setAttribute('aria-pressed', String(heroPaused));
+    });
   }
 
   const slides = [...document.querySelectorAll('[data-slide]')];
@@ -61,11 +88,13 @@
       const selected = slide === visibleSlides[active];
       slide.classList.toggle('is-active', selected);
       slide.setAttribute('aria-hidden', String(!selected));
+      slide.inert = !selected;
     });
     if (counter) counter.textContent = String(active + 1).padStart(2, '0');
   };
   document.querySelector('[data-prev]').addEventListener('click', () => showSlide(active - 1));
   document.querySelector('[data-next]').addEventListener('click', () => showSlide(active + 1));
+  showSlide(0);
 
   const categoryMatch = (slide, filter) => {
     const text = slide.querySelector('.eyebrow')?.textContent.toLowerCase() || '';
@@ -73,15 +102,26 @@
     return filter === 'all' || (maps[filter] || []).some((term) => text.includes(term));
   };
   document.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => {
-    document.querySelectorAll('[data-filter]').forEach((item) => item.classList.toggle('is-active', item === button));
+    document.querySelectorAll('[data-filter]').forEach((item) => {
+      item.classList.toggle('is-active', item === button);
+      item.setAttribute('aria-pressed', String(item === button));
+    });
     visibleSlides = slides.filter((slide) => categoryMatch(slide, button.dataset.filter));
     slides.forEach((slide) => slide.classList.toggle('is-filtered-out', !visibleSlides.includes(slide)));
     active = 0; if (total) total.textContent = String(visibleSlides.length).padStart(2, '0'); showSlide(0);
   }));
 
-  document.querySelectorAll('.service-item .service-row').forEach((row) => row.addEventListener('click', () => {
-    const item = row.closest('.service-item'); const open = item.classList.toggle('is-open'); row.setAttribute('aria-expanded', String(open));
-  }));
+  document.querySelectorAll('.service-item .service-row').forEach((row, index) => {
+    const item = row.closest('.service-item'), detail = item.querySelector('.service-detail');
+    detail.id = 'service-detail-' + index;
+    detail.inert = !item.classList.contains('is-open');
+    row.setAttribute('aria-controls', detail.id);
+    row.setAttribute('aria-expanded', String(!detail.inert));
+    row.addEventListener('click', () => {
+      const open = item.classList.toggle('is-open');
+      row.setAttribute('aria-expanded', String(open)); detail.inert = !open;
+    });
+  });
 
   document.querySelector('[data-budget-form]')?.addEventListener('submit', (event) => {
     event.preventDefault(); const data = new FormData(event.currentTarget);
