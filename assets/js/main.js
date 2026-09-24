@@ -71,15 +71,33 @@
     });
   }
 
+  const stage = document.querySelector('[data-slider]');
+  if (stage && window.PORTFOLIO?.length) {
+    const fragment = document.createDocumentFragment();
+    window.PORTFOLIO.forEach(project => {
+      const slide = document.createElement('article');
+      slide.className = 'project-slide'; slide.dataset.slide = '';
+      const info = document.createElement('div'); info.className = 'project-info';
+      const category = document.createElement('p'); category.className = 'eyebrow'; category.textContent = project.category;
+      const title = document.createElement('h3'); title.textContent = project.title;
+      const description = document.createElement('p'); description.textContent = project.description;
+      const link = document.createElement('a'); link.className = 'button-light';
+      link.href = 'project.html?slug=' + encodeURIComponent(project.slug);
+      link.textContent = 'Ver projeto ↗';
+      const art = document.createElement('div'); art.className = 'project-art project-cover';
+      const image = document.createElement('img');
+      image.dataset.src = project.cover; image.alt = 'Capa do projeto ' + project.title;
+      image.loading = 'lazy'; image.decoding = 'async';
+      if (project.coverFit) image.style.objectFit = project.coverFit;
+      art.append(image); info.append(category, title, description, link); slide.append(info, art); fragment.append(slide);
+    });
+    stage.replaceChildren(fragment);
+  }
   const slides = [...document.querySelectorAll('[data-slide]')];
   const counter = document.querySelector('[data-current]');
   const total = document.querySelector('[data-total]');
   let active = 0;
   let visibleSlides = slides;
-  slides.forEach((slide, index) => {
-    const link = slide.querySelector('.button-light');
-    if (link) { link.dataset.behance = link.href; link.href = `project.html?project=${index}`; link.removeAttribute('target'); }
-  });
   if (total) total.textContent = String(slides.length).padStart(2, '0');
   const showSlide = (index) => {
     if (!visibleSlides.length) return;
@@ -89,6 +107,8 @@
       slide.classList.toggle('is-active', selected);
       slide.setAttribute('aria-hidden', String(!selected));
       slide.inert = !selected;
+      const image = slide.querySelector('img[data-src]');
+      if (selected && image) { image.src = image.dataset.src; image.removeAttribute('data-src'); }
     });
     if (counter) counter.textContent = String(active + 1).padStart(2, '0');
   };
@@ -98,7 +118,7 @@
 
   const categoryMatch = (slide, filter) => {
     const text = slide.querySelector('.eyebrow')?.textContent.toLowerCase() || '';
-    const maps = { branding:['branding','identidade'], motion:['motion','film'], fotografia:['fotografia'], social:['social'], ux:['ux/ui','product'], campanha:['campanha','e-commerce','ads','retail'] };
+    const maps = { branding:['branding','identidade'], campanha:['campanha','e-commerce','ads','social'], motion:['motion','film'], captacao:['captação'], foto:['fotografia'], diagramacao:['diagramação'], ux:['ux/ui'] };
     return filter === 'all' || (maps[filter] || []).some((term) => text.includes(term));
   };
   document.querySelectorAll('[data-filter]').forEach((button) => button.addEventListener('click', () => {
@@ -123,6 +143,17 @@
     });
   });
 
+  const serviceSelect = document.querySelector('[data-budget-form] select[name="service"]');
+  if (serviceSelect) {
+    serviceSelect.replaceChildren();
+    document.querySelectorAll('[data-service]').forEach(link => {
+      const option = document.createElement('option');
+      option.value = link.dataset.service; option.textContent = link.dataset.service;
+      serviceSelect.append(option);
+      link.addEventListener('click', () => { serviceSelect.value = link.dataset.service; });
+    });
+    serviceSelect.append(new Option('Outro / quero conversar', 'Outro / quero conversar'));
+  }
   document.querySelector('[data-budget-form]')?.addEventListener('submit', (event) => {
     event.preventDefault(); const data = new FormData(event.currentTarget);
     const text = `Olá Leonardo! Meu nome é ${data.get('name')}. Empresa: ${data.get('company') || 'não informado'}. Serviço: ${data.get('service')}. Projeto: ${data.get('message')}`;
