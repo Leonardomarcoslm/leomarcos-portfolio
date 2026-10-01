@@ -72,6 +72,7 @@
   }
 
   const stage = document.querySelector('[data-slider]');
+  if (!stage?.classList.contains('scroll-projects')) {
   if (stage && window.PORTFOLIO?.length) {
     const fragment = document.createDocumentFragment();
     window.PORTFOLIO.forEach(project => {
@@ -130,6 +131,8 @@
     slides.forEach((slide) => slide.classList.toggle('is-filtered-out', !visibleSlides.includes(slide)));
     active = 0; if (total) total.textContent = String(visibleSlides.length).padStart(2, '0'); showSlide(0);
   }));
+
+  }
 
   document.querySelectorAll('.service-item .service-row').forEach((row, index) => {
     const item = row.closest('.service-item'), detail = item.querySelector('.service-detail');

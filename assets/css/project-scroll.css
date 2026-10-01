@@ -1,0 +1,23 @@
+/* Natural document scrolling: no wheel interception or scroll lock. */
+.scroll-projects{display:grid;grid-template-columns:minmax(0,31%) minmax(0,1fr);gap:5%;align-items:start}
+.scroll-project-info{position:sticky;top:120px;min-width:0;padding:16px 0 30px}
+.scroll-project-copy h3{font:600 clamp(30px,3.1vw,56px)/1.07 var(--display);letter-spacing:-.04em;margin:22px 0 26px;overflow-wrap:anywhere}
+.scroll-project-description{font-size:clamp(15px,1.15vw,18px);line-height:1.65;color:#bbb;max-width:440px}
+.scroll-project-copy .button-light{display:inline-block;margin-top:36px}
+.scroll-project-list{min-width:0}
+.scroll-project-card{margin-bottom:24px;scroll-margin-top:115px}
+.scroll-project-cover{display:block;aspect-ratio:16/10;overflow:hidden;background:#151515;border-radius:5px;filter:grayscale(1);opacity:.5;transition:filter .4s,opacity .4s}
+.scroll-project-cover img{display:block;width:100%;height:100%;object-fit:cover}
+.scroll-project-card.is-current .scroll-project-cover,.scroll-project-cover:hover,.scroll-project-cover:focus-visible{filter:none;opacity:1}
+.scroll-project-all{display:block;text-align:center;padding:30px 16px;background:#171717;border:1px solid #333;border-radius:5px;font-size:18px}
+.scroll-project-all:hover{background:#252525}
+.scroll-projects [hidden]{display:none!important}
+@media(max-width:900px){
+ .scroll-projects{display:block}
+ .scroll-project-cover{filter:none;opacity:1;aspect-ratio:4/3}
+ .scroll-project-card{margin-bottom:55px;scroll-margin-top:85px}
+ .scroll-project-copy{padding:24px 0 0}
+ .scroll-project-copy h3{font-size:clamp(28px,8vw,42px);margin:14px 0 18px}
+ .scroll-project-copy .button-light{margin-top:20px}
+}
+@media(prefers-reduced-motion:reduce){.scroll-project-cover{transition:none}}
