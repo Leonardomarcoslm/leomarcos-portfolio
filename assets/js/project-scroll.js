@@ -43,7 +43,7 @@
     return {card, info, project, index};
   });
   const all = document.createElement('a'); all.href = 'projetos.html';
-  all.className = 'scroll-project-all'; all.textContent = 'Ver todos os projetos ↗'; list.append(all);
+  all.className = 'scroll-project-all'; all.textContent = 'Ver todos os projetos'; list.append(all);
   stage.classList.remove('reveal');
   stage.classList.add('scroll-projects'); stage.replaceChildren(panel, list);
   let visible = records, active = null, queued = false;
