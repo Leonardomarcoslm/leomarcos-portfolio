@@ -10,7 +10,17 @@
   const counter = document.querySelector('[data-current]');
   const total = document.querySelector('[data-total]');
   const maps = { branding:['branding','identidade'], campanha:['campanha','e-commerce','ads','social'], motion:['motion','film'], captacao:['captação'], foto:['fotografia'], diagramacao:['diagramação'], ux:['ux/ui'] };
-  const records = window.PORTFOLIO.map((project, index) => {
+  // Homepage selection only: all albums remain available in the full portfolio.
+  const excluded = new Set([
+    'fotografia-urbana-deriva',
+    'batalha-de-rap-ajuda-comunitaria',
+    'ensaio-fotografico-rafa',
+    'key-visual-marketplace-philips-2eletro',
+    'salvaguarda',
+    'ads-marketplace',
+    'black-friday-natal'
+  ]);
+  const records = window.PORTFOLIO.filter(project => !excluded.has(project.slug)).map((project, index) => {
     const card = document.createElement('article');
     card.className = 'scroll-project-card';
     card.id = 'home-project-' + project.slug;
